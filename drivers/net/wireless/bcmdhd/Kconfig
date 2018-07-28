@@ -78,7 +78,7 @@ config BCMDHD_FW_PATH
 config BCMDHD_NVRAM_PATH
 	depends on WLAN
 	string "NVRAM path"
-	default "/system/etc/wifi/bcmdhd.cal"
+	default "/system/vendor/etc/wifi/bcmdhd.cal"
 	---help---
 	  Path to the calibration file.
 
